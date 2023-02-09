@@ -1,14 +1,13 @@
 'use client'
-import { Box, Button, Flex, HStack,SimpleGrid,Container } from '@chakra-ui/react'
+import { Box, Button, Flex, HStack } from '@chakra-ui/react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { getParseTreeNode } from 'typescript'
 import logo from "../../public/logo.png"
 
 export default function Navbar() {
   return (
     <>
-    <Box >
+    <Box boxShadow={"lg"} >
 
         <Flex  justifyContent="space-between">
             <Box ml={"5"}>
@@ -23,8 +22,8 @@ export default function Navbar() {
                 <Link href={""}>Contact Us</Link>
                 
             </HStack>
-            <Button 
-            size='lg'height='27px' width='85px'
+            <Button  colorScheme={"facebook"}
+            size='lg'height='30px' width='90px'
             float='right' borderRadius={"25"} bg={"#43c778"} placeContent={"center"}
             marginTop={"auto"} marginBottom={"auto"} marginRight={"5"}
             >Apply</Button>
