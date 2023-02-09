@@ -16,7 +16,7 @@ export default function Navbar() {
 
             <HStack fontSize={18}  gap={10} fontWeight='semibold'>
                 
-                <Link href={""}>Home</Link>
+                <Link href={""} >Home</Link>
                 <Link href={""}>Courses</Link>
                 <Link href={""}>About</Link>
                 <Link href={""}>Contact Us</Link>
@@ -24,7 +24,7 @@ export default function Navbar() {
             </HStack>
             <Button  colorScheme={"facebook"}
             size='lg'height='30px' width='90px'
-            float='right' borderRadius={"25"} bg={"#43c778"} placeContent={"center"}
+            float='right' borderRadius={"25"} bg={"#43c778"} justifyContent={"center"}
             marginTop={"auto"} marginBottom={"auto"} marginRight={"5"}
             >Apply</Button>
             
