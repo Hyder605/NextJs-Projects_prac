@@ -15,8 +15,8 @@ export default function Footer() {
     <Text>Certified Web 3.0 and Metaverse Developer:<br/> 
         A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar</Text>
         </Box>
-
-        <VStack fontSize={18}  fontWeight='semibold' pl={"3"} bg={"green.300"} width={300}>
+        <Flex bg={"aqua"}  m={"auto"}>
+        <VStack fontSize={18}  fontWeight='semibold' pl={"3"}  width={300}>
             <Heading>Pages</Heading>
             <Link href={""} >Home</Link>
             <Link href={""}>Courses</Link>
@@ -25,7 +25,7 @@ export default function Footer() {
             
         </VStack>
         <VStack fontSize={18} ml={"4"} mr={'0'} fontWeight='semibold' 
-        pl={""} bg={"yellow.300"} width={300} 
+        pl={""}  width={300} 
         placeContent={"center"}>
             <Heading>Programs</Heading>
             <Link href={""} >Home</Link>
@@ -34,6 +34,7 @@ export default function Footer() {
             <Link href={""}>Contact Us</Link>
             
         </VStack>
+        </Flex>
        
         
     </Flex>
