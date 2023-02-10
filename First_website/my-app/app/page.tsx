@@ -3,6 +3,7 @@
 // import styles from './page.module.css'
 import Navbar from './components/navbar'
 import Landing from './components/landing'
+import Footer from './components/footer'
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <>
     <Navbar/>
     <Landing/>
+    <Footer/>
 
     </>
   )
