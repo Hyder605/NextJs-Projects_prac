@@ -14,7 +14,7 @@ export default function Navbar() {
         <Image src={logo} alt={"Panaverse-logo"} height={50} width={85} ></Image>
             </Box>
 
-            <HStack fontSize={18}  gap={10} fontWeight='semibold'>
+            <HStack display={{base:"none", lg:"flex"}} fontSize={18}  gap={10} fontWeight='semibold'>
                 
                 <Link href={""} >Home</Link>
                 <Link href={""}>Courses</Link>
@@ -22,11 +22,13 @@ export default function Navbar() {
                 <Link href={""}>Contact Us</Link>
                 
             </HStack>
-            <Button  colorScheme={"facebook"}
+           
+            <Button  colorScheme={"facebook"} 
             size='lg'height='30px' width='90px'
             float='right' borderRadius={"25"} bg={"#43c778"} justifyContent={"center"}
-            marginTop={"auto"} marginBottom={"auto"} marginRight={"5"}
+            marginTop={"auto"} marginBottom={"auto"} marginRight={"10"}
             >Apply</Button>
+            
             
         </Flex>
         

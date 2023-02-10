@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <Box boxShadow={"lg"} bg={"blackAlpha.300"} >
 
-    <Flex  justifyContent='normal'>
+    <Flex  justifyContent={'space-evenly'}>
         <Box ml={"5"}  height={"200"} width={"30"} >
     <Image src={logo} alt={"Panaverse-logo"} height={100} width={170} ></Image>
     <Text fontWeight={"semibold"}>Certified Web 3.0 and Metaverse Developer:<br/> 
