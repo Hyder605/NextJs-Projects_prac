@@ -10,7 +10,7 @@ export default function Landing() {
     <>
     <Box>
       <Flex >
-        <Box width={450} height={"350"} my={"25px"} mr={"25px"} bg={"blue.400"} borderRightRadius={"30px"}>
+        <Box boxShadow={"dark-lg"} width={450} height={"350"} my={"25px"} mr={"25px"} bg={"blue.400"} borderRightRadius={"30px"}>
          <Heading fontSize={"40px"} px={"60px"} pt={"75px"} textAlign={"center"}>Web 3.0 Metaverse</Heading>
          <Text fontSize={"20px"}textAlign={"center"}>Earn as you Learn Program</Text>
          
@@ -29,7 +29,7 @@ export default function Landing() {
           
         </Box>
         <Spacer></Spacer>
-        <Box width={700} height={"350"} my={"25px"} ml={"25px"} bg={"blue.400"} borderLeftRadius={"30px"}>
+        <Box boxShadow={"dark-lg"} width={700} height={"350"} my={"25px"} ml={"25px"} bg={"blue.400"} borderLeftRadius={"30px"}>
           <Flex>
          <Heading fontSize={"40px"} px={"60px"} pt={"75px"} textAlign={"center"}>The Panaverse Community</Heading>
          <Text textAlign={"center"} px={"50px"} pt={"25px"}>Web3, 3D Metaverse, AI, IoT, Cloud, and Edge technologies expand 
@@ -47,7 +47,7 @@ export default function Landing() {
 
     <Box>
       <Flex >
-        <Box width={600} height={"550"} my={"25px"} mr={"25px"} bg={"blue.400"} borderRightRadius={"30px"}>
+        <Box boxShadow={"dark-lg"} width={600} height={"550"} my={"25px"} mr={"25px"} bg={"blue.400"} borderRightRadius={"30px"}>
           <Flex>
          <Heading fontSize={"40px"} px={"30px"} py={"30%"} textAlign={"center"} justifyItems={"center"}>What is Metaverse ?</Heading>
          <Text textAlign={"center"} px={"10px"} pt={"25px"}>A communal environment or virtual world made possible 
@@ -73,8 +73,8 @@ export default function Landing() {
       <Flex direction={"column"} bg={"gray.200"}>
         <Box  width={"100%"}> 
         <VStack>
-          <Heading>Program of Studies</Heading>
-          <Text>The first three quarters are shared by all specialties and are dedicated to studying 
+          <Heading mt={"10px"}>Program of Studies</Heading>
+          <Text textAlign={"center"} px={"200px"}>The first three quarters are shared by all specialties and are dedicated to studying 
             Object-Oriented Programming and cutting-edge Full-Stack Web 2.0 development
             The graduates of this program will own products (Full-Stack App Templates, 
             AR and VR Experiences, and APIs) that are marketed globally by the Panaverse DAO 
@@ -85,33 +85,32 @@ export default function Landing() {
         </Box>
       
       <Flex my={"40px"} >
-        <Card ml={"200px"}  borderStyle={"groove"} borderWidth={"5px"}>
-          <CardBody >
+        {/* Quater one */}
+        <Card maxH={"sm"} boxShadow={"dark-lg"} ml={"200px"}  borderStyle={"hidden"} borderWidth={"5px"} boxSizing={"border-box"} >
+          <CardBody  >
           <Image
               src={cover}
               alt='Green double couch with wooden legs'
             />
             
             <Stack mt='6' spacing='3'>
-              <Heading size='md'>Living room Sofa</Heading>
+              <Heading size='md'>Quarter I</Heading>
               <Text>
-                This sofa is perfect for modern tropical spaces, baroque inspired
-                spaces, earthy toned spaces and for people who love a chic design with a
-                sprinkle of vintage design.
+              CS-101: Object-Oriented Programming using TypeScript
               </Text>
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
+          <CardFooter justifyContent={"center"}>
               <Button variant='ghost' colorScheme='blue'>
-                Add to cart
+                See More...
               </Button>
            
           </CardFooter>
         </Card>
 
-
-        <Card ml={"20px"} borderStyle={"groove"} borderWidth={"5px"}>
+{/* Quarter 2 */}
+        <Card boxShadow={"dark-lg"} ml={"20px"} borderStyle={"hidden"} borderWidth={"5px"}>
           <CardBody>
           <Image
               src={cover}
@@ -119,25 +118,23 @@ export default function Landing() {
             />
             
             <Stack mt='6' spacing='3'>
-              <Heading size='md'>Living room Sofa</Heading>
+              <Heading size='md'>Quarter II</Heading>
               <Text>
-                This sofa is perfect for modern tropical spaces, baroque inspired
-                spaces, earthy toned spaces and for people who love a chic design with a
-                sprinkle of vintage design.
+              Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13
               </Text>
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
+          <CardFooter justifyContent={"center"}>
               <Button variant='ghost' colorScheme='blue'>
-                Add to cart
+                See More...
               </Button>
            
           </CardFooter>
         </Card>
 
-
-        <Card mx={"20px"} borderStyle={"groove"} borderWidth={"5px"}>
+{/* Quarter 3 */}
+        <Card maxH={"sm"} boxShadow={"dark-lg"} mx={"20px"} borderStyle={"hidden"} borderWidth={"5px"}>
           <CardBody>
           <Image
               src={cover}
@@ -145,25 +142,23 @@ export default function Landing() {
             />
             
             <Stack mt='6' spacing='3'>
-              <Heading size='md'>Living room Sofa</Heading>
+              <Heading size='md'>Quarter III</Heading>
               <Text>
-                This sofa is perfect for modern tropical spaces, baroque inspired
-                spaces, earthy toned spaces and for people who love a chic design with a
-                sprinkle of vintage design.
+              Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13
               </Text>
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
+          <CardFooter justifyContent={"center"}>
               <Button variant='ghost' colorScheme='blue'>
-                Add to cart
+                See More...
               </Button>
            
           </CardFooter>
         </Card>
 
-
-        <Card mr={"200px"} borderStyle={"groove"} borderWidth={"5px"}>
+{/* Quarter 4 */}
+        <Card  boxShadow={"dark-lg"} mr={"200px"} borderStyle={"hidden"} borderWidth={"5px"}>
           <CardBody>
           <Image
               src={cover}
@@ -171,18 +166,16 @@ export default function Landing() {
             />
             
             <Stack mt='6' spacing='3'>
-              <Heading size='md'>Living room Sofa</Heading>
-              <Text>
-                This sofa is perfect for modern tropical spaces, baroque inspired
-                spaces, earthy toned spaces and for people who love a chic design with a
-                sprinkle of vintage design.
+              <Heading size='md'>Quarter IV, V (Specialized)</Heading>
+              <Text >
+              Web 3.0 & Metaverse Specialization AI, Cloud-Native, IoT
               </Text>
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
+          <CardFooter justifyContent={"center"}>
               <Button variant='ghost' colorScheme='blue'>
-                Add to cart
+                See More...
               </Button>
            
           </CardFooter>
