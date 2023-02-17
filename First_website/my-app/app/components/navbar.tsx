@@ -7,7 +7,7 @@ import logo from "../../public/logo.png"
 export default function Navbar() {
   return (
     <>
-    <Box boxShadow={"lg"} >
+    <Box boxShadow={"dark-lg"} >
 
         <Flex  justifyContent="space-between">
             <Box ml={"5"}>

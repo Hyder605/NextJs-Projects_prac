@@ -8,9 +8,10 @@ import cover from "../../public/cover.png"
 export default function Landing() {
   return ( 
     <>
-    <Box>
+{/* First Section */}
+    <Box bg={"gray.200"}>
       <Flex >
-        <Box boxShadow={"dark-lg"} width={450} height={"350"} my={"25px"} mr={"25px"} bg={"blue.400"} borderRightRadius={"30px"}>
+        <Box boxShadow={"dark-lg"} width={450} height={"350"} my={"25px"} mr={"25px"} bg={"blue.300"} borderRightRadius={"30px"}>
          <Heading fontSize={"40px"} px={"60px"} pt={"75px"} textAlign={"center"}>Web 3.0 Metaverse</Heading>
          <Text fontSize={"20px"}textAlign={"center"}>Earn as you Learn Program</Text>
          
@@ -22,14 +23,14 @@ export default function Landing() {
 
       </Flex>
     </Box>
-
-    <Box>
+{/* Second Section */}
+    <Box bg={"gray.200"}>
       <Flex >
         <Box>
           
         </Box>
         <Spacer></Spacer>
-        <Box boxShadow={"dark-lg"} width={700} height={"350"} my={"25px"} ml={"25px"} bg={"blue.400"} borderLeftRadius={"30px"}>
+        <Box boxShadow={"dark-lg"} width={700} height={"350"} my={"25px"} ml={"25px"} bg={"blue.300"} borderLeftRadius={"30px"}>
           <Flex>
          <Heading fontSize={"40px"} px={"60px"} pt={"75px"} textAlign={"center"}>The Panaverse Community</Heading>
          <Text textAlign={"center"} px={"50px"} pt={"25px"}>Web3, 3D Metaverse, AI, IoT, Cloud, and Edge technologies expand 
@@ -44,10 +45,10 @@ export default function Landing() {
 
       </Flex>
     </Box>
-
-    <Box>
+{/* 3rd Section */}
+    <Box bg={"gray.200"}>
       <Flex >
-        <Box boxShadow={"dark-lg"} width={600} height={"550"} my={"25px"} mr={"25px"} bg={"blue.400"} borderRightRadius={"30px"}>
+        <Box boxShadow={"dark-lg"} width={600} height={"550"} my={"25px"} mr={"25px"} bg={"blue.300"} borderRightRadius={"30px"}>
           <Flex>
          <Heading fontSize={"40px"} px={"30px"} py={"30%"} textAlign={"center"} justifyItems={"center"}>What is Metaverse ?</Heading>
          <Text textAlign={"center"} px={"10px"} pt={"25px"}>A communal environment or virtual world made possible 
@@ -68,9 +69,9 @@ export default function Landing() {
 
       </Flex>
     </Box>
-
-    <Box>
-      <Flex direction={"column"} bg={"gray.200"}>
+{/* 4th Section + Cards */}
+    <Box bg={"gray.200"}>
+      <Flex direction={"column"} >
         <Box  width={"100%"}> 
         <VStack>
           <Heading mt={"10px"}>Program of Studies</Heading>

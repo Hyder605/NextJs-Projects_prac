@@ -7,7 +7,7 @@ import logo from "../../public/logo.png"
 
 export default function Footer() {
   return (
-    <Box boxShadow={"lg"} bg={"blackAlpha.300"} >
+    <Box boxShadow={"dark-lg"} bg={"blackAlpha.300"} >
 
     <Flex  justifyContent={'space-evenly'}>
         <Box ml={"5"}  height={"200"} width={"30"} >
