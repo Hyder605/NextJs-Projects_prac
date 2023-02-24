@@ -12,9 +12,8 @@ export default function Home() {
   <ChakraProvider>
     <div className="bg-primary-black overflow-hidden">
 
-    <Navbar/>
+    
     <Landing/>
-    <Footer/>
     </div>
   </ChakraProvider>  
     </>

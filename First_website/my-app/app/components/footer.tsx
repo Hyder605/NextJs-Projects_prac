@@ -7,7 +7,7 @@ import logo from "../../public/logo.png"
 
 export default function Footer() {
   return (
-    <Box boxShadow={"dark-lg"} bg={"blackAlpha.300"} >
+    <Box boxShadow={"dark-lg"} bg={"blackAlpha.700"}>
 
     <Flex  justifyContent={'space-evenly'}>
         <Box ml={"5"}  height={"200"} width={"30"} >
@@ -17,22 +17,22 @@ export default function Footer() {
         </Box>
         <Flex  ml={'200'}>
         <VStack fontWeight={"normal"} pl={"3"} pt={"3"} 
-         width={300}>
-            <Heading fontSize={"22"} >Pages</Heading>
-            <Link href={""} >Home</Link>
-            <Link href={""}>Courses</Link>
-            <Link href={""}>About</Link>
-            <Link href={""}>Contact Us</Link>
+         width={300} textColor={"white"}>
+            <Heading fontSize={"22"} fontWeight={"bold"}>Pages</Heading>
+            <Link href={"/"}>Home</Link>
+            <Link href={"./courses"}>Courses</Link>
+            <Link href={"./about"}>About</Link>
+            <Link href={"./contactus"}>Contact Us</Link>
             
         </VStack>
         <VStack fontWeight={"normal"}  ml={"4"} mr={'0'} pt={"3"} 
-        pl={""}  width={300} 
+        pl={""}  width={300} textColor={"white"}
         >
-            <Heading fontSize={"22"}>Programs</Heading>
-            <Link href={""} >Home</Link>
-            <Link href={""}>Courses</Link>
-            <Link href={""}>About</Link>
-            <Link href={""}>Contact Us</Link>
+            <Heading fontSize={"22"} fontWeight={"bold"}>Follow US</Heading>
+            <Link href={""} >FaceBook</Link>
+            <Link href={""}>Twitter</Link>
+            <Link href={""}>LinkedIn</Link>
+            <Link href={""}>Youtube</Link>
             
         </VStack>
         </Flex>

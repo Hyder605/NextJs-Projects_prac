@@ -7,7 +7,7 @@ import logo from "../../public/logo.png"
 export default function Navbar() {
   return (
     <>
-    <Box boxShadow={"dark-lg"} >
+    <Box boxShadow={"dark-lg"} backgroundColor={"white"} >
 
         <Flex  justifyContent="space-between">
             <Box ml={"5"}>
@@ -16,10 +16,10 @@ export default function Navbar() {
 
             <HStack display={{base:"none", lg:"flex"}} fontSize={18}  gap={10} fontWeight='semibold'>
                 
-                <Link href={""} >Home</Link>
-                <Link href={""}>Courses</Link>
-                <Link href={""}>About</Link>
-                <Link href={""}>Contact Us</Link>
+                <Link href={"/"} >Home</Link>
+                <Link href={"./courses"}>Courses</Link>
+                <Link href={"./about"}>About</Link>
+                <Link href={"./contactus"}>Contact Us</Link>
                 
             </HStack>
            
