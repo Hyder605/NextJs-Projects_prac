@@ -38,7 +38,7 @@ export default function Courses() {
     </Box>
 
     {cards.map((elm)=>(
-    <Box my={"20px"}>
+    <Box my={"20px"} key={elm.id}>
       <Center flexDir={"column"} >
       <Heading fontSize={"2xl"} fontWeight={"bold"}>{elm.heading1}</Heading>
       <Text px={"50px"} textAlign={"center"}>{elm.text1}</Text>

@@ -3,10 +3,12 @@ import { Box, Button, Flex, HStack } from '@chakra-ui/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import logo from "../../public/logo.png"
+import { RevealWrapper } from  'next-reveal'
 
 export default function Navbar() {
   return (
     <>
+    <RevealWrapper delay={200} duration={1000} distance='500px' reset={true}>
     <Box boxShadow={"dark-lg"} backgroundColor={"white"} >
 
         <Flex  justifyContent="space-between">
@@ -34,6 +36,7 @@ export default function Navbar() {
         
         
     </Box>
+    </RevealWrapper>
     
     </>
     )
