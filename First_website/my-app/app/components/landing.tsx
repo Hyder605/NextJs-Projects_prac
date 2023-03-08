@@ -108,7 +108,7 @@ export default function Landing() {
       <RevealWrapper origin="top" delay={500} duration={1000} distance='500px' reset={true}>        
 
         <Box  width={{lg:"100%"}}> 
-        <VStack bg="green">
+        <VStack bg="gray.200">
           <Heading mt={"10px"} fontSize={{base:'20px'}}textAlign={{base:"center"}}>Program of Studies</Heading>
           <Text textAlign={"center"} px={{lg:"200px",base:"20px"}}>The first three quarters are shared by all specialties and are dedicated to studying 
             Object-Oriented Programming and cutting-edge Full-Stack Web 2.0 development
