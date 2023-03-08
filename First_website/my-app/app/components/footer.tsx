@@ -15,9 +15,9 @@ export default function Footer() {
     <Text fontWeight={"semibold"}>Certified Web 3.0 and Metaverse Developer:<br/> 
         A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar</Text>
         </Box>
-        <Flex  ml={{lg:'200',base:"12"}} display={{lg:"flex",base:"grid"}}>
+        <Flex  ml={{lg:'200',base:"12"}} display={{lg:"flex",base:"grid"}} columnGap={"100px"}>
         <VStack fontWeight={"normal"} pl={"3"} pt={"3"} 
-         width={{lg:"300",base:"0"}} textColor={"white"}>
+         width={{lg:"300",base:"0"}} textColor={"white"} >
             <Heading fontSize={"22"} fontWeight={"bold"}>Pages</Heading>
             <Link href={"/"}>Home</Link>
             <Link href={"./courses"}>Courses</Link>
