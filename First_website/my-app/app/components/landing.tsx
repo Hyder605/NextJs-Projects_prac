@@ -1,6 +1,6 @@
 'use client'
-import { Box,Flex, Heading, Spacer,Text, VStack,Stack,CardBody,Divider,CardFooter,Button,Card,ButtonGroup} from '@chakra-ui/react'
-import Image from 'next/image'
+import { Box,Flex, Heading, Spacer,Text, VStack,Stack,CardBody,Divider,CardFooter,Button,Card,Image} from '@chakra-ui/react'
+// import Image from 'next/image'
 import "/styles/styles.css"
 import logo2 from "../../public/logo2.webp"
 import logo from "../../public/logo.png"
@@ -18,7 +18,7 @@ export default function Landing() {
 {/* First Section */}
 
     <Box bg={"gray.200"}>
-      <Flex >
+      <Flex display={{lg:"flex",base:"grid"}}>
 <RevealWrapper origin="left" delay={500} duration={1000} distance='500px' reset={true}>
 
         <Box boxShadow={"dark-lg"} width={{lg:"450" ,base:"300"}} height={"350"} my={"25px"} mr={"25px"} bg={"blue.300"} borderRightRadius={"30px"}>
@@ -30,8 +30,8 @@ export default function Landing() {
 </RevealWrapper>
 <RevealWrapper origin="right" delay={500} duration={1000} distance='500px' reset={true}>
 
-        <Box ml="250px">
-        <Image src={logo2} alt={"cover"} height="600" width={"400"}></Image>
+        <Box ml={{lg:"250px",base:"10px"}} >
+        <Image src='./logo2.webp' alt={"cover"} height="350" width={{lg:"400",base:"200"}} ></Image>
         </Box>
 </RevealWrapper>
         
@@ -40,19 +40,19 @@ export default function Landing() {
     </Box>
   
 {/* Second Section */}
-    <Box bg={"gray.200"} display={{lg:"grid",base:"none"}}>
-      <Flex >
+    <Box bg={"gray.200"}>
+      <Flex display={{lg:"flex",base:"grid"}}>
 <RevealWrapper origin="left" delay={500} duration={1000} distance='500px' reset={true}>
 
-        <Box pl="125px" pt="100px">
-        <Image src={logo} alt={"cover"} height="600" width={"400"}></Image>
+        <Box pl={{lg:"125px",base:"20px"}} pt="100px">
+        <Image src='./logo.png' alt={"cover"} height={{lg:"300",base:"150"}} width={{lg:"400",base:"200"}} ></Image>
         </Box>
 </RevealWrapper>   
       
         <Spacer></Spacer>
       <RevealWrapper origin="right" delay={500} duration={1000} distance='500px' reset={true}>
-        <Box boxShadow={"dark-lg"} width={{lg:700,base:300}} height={"350"} my={"25px"} ml={"25px"} bg={"blue.300"} borderLeftRadius={"30px"}>
-          <Flex>
+        <Box boxShadow={"dark-lg"} width={{lg:700,base:350}} height={{lg:"350",base:"600"}} my={"25px"} ml={"25px"} bg={"blue.300"} borderLeftRadius={"30px"}>
+          <Flex display={{base:"grid", lg:"flex"}}>
          <Heading fontSize={"40px"} px={"60px"} pt={"75px"} textAlign={"center"}>The Panaverse Community</Heading>
          <Text textAlign={"center"} px={"50px"} pt={"25px"}>Web3, 3D Metaverse, AI, IoT, Cloud, and Edge technologies expand 
          the internet as we know it by introducing novel features and advancements.In this brand-new type of
@@ -70,9 +70,9 @@ export default function Landing() {
     </Box>
 {/* 3rd Section */}
     <Box bg={"gray.200"}>
-      <Flex >
+      <Flex display={{base:"grid",lg:"flex"}}>
       <RevealWrapper origin="left" delay={500} duration={1000} distance='500px' reset={true}>        
-        <Box boxShadow={"dark-lg"} width={600} height={"550"} my={"25px"} mr={"25px"} bg={"blue.300"} borderRightRadius={"30px"}>
+        <Box boxShadow={"dark-lg"} width={{lg:600,base:350}} height={{lg:"550",base:"900"}} my={"25px"} mr={"25px"} bg={"blue.300"} borderRightRadius={"30px"}>
           <Flex display={{lg:"flex",base:"grid"}}>
          <Heading fontSize={"40px"} px={"30px"} py={"30%"} textAlign={"center"} justifyItems={"center"}>What is Metaverse ?</Heading>
          <Text textAlign={"center"} px={"10px"} pt={"25px"}>A communal environment or virtual world made possible 
@@ -93,8 +93,8 @@ export default function Landing() {
         </RevealWrapper>
         <RevealWrapper origin="right" delay={500} duration={1000} distance='500px' reset={true}>
 
-        <Box pl="125px" pt="100px" >
-        <Image src={s3} alt={"cover"} height="600" width={"400"}></Image>
+        <Box ml={{lg:"250px",base:"10px"}} >
+        <Image src='./s3.webp' alt={"cover"} height="350" width={{lg:"400",base:"200"}} ></Image>
         </Box>
         </RevealWrapper>  
             
@@ -107,10 +107,10 @@ export default function Landing() {
       <Flex direction={"column"} >
       <RevealWrapper origin="top" delay={500} duration={1000} distance='500px' reset={true}>        
 
-        <Box  width={"100%"}> 
-        <VStack>
-          <Heading mt={"10px"}>Program of Studies</Heading>
-          <Text textAlign={"center"} px={"200px"}>The first three quarters are shared by all specialties and are dedicated to studying 
+        <Box  width={{lg:"100%"}}> 
+        <VStack bg="green">
+          <Heading mt={"10px"} fontSize={{base:'20px'}}textAlign={{base:"center"}}>Program of Studies</Heading>
+          <Text textAlign={"center"} px={{lg:"200px",base:"20px"}}>The first three quarters are shared by all specialties and are dedicated to studying 
             Object-Oriented Programming and cutting-edge Full-Stack Web 2.0 development
             The graduates of this program will own products (Full-Stack App Templates, 
             AR and VR Experiences, and APIs) that are marketed globally by the Panaverse DAO 
@@ -120,14 +120,14 @@ export default function Landing() {
         </VStack>        
         </Box>
         </RevealWrapper>
-      
-      <Flex my={"40px"} placeContent={"space-evenly"} px="200px" gap="10px">
+
+      <Flex display={{base:"-ms-grid",lg:"flex"}}my={{lg:"40px",base:"2px"}} placeContent={{lg:"space-evenly",base:"center"}} px={{lg:"200px",base:"5px"}} gap={{lg:"10px",base:"2px"}}>
         {/* Quater one */}
-<RevealWrapper origin="top" delay={500} duration={3000} distance='500px' reset={true}>
+<RevealWrapper origin="top" delay={500} duration={2000} distance='500px' reset={true}>
         <Card boxShadow={"dark-lg"}  borderStyle={"hidden"} borderWidth={"5px"} boxSizing={"border-box"} >
           <CardBody  >
           <Image
-              src={cover}
+              src='./cover.png'
               alt='Green double couch with wooden legs'
             />
             
@@ -154,7 +154,7 @@ export default function Landing() {
         <Card boxShadow={"dark-lg"}  borderStyle={"hidden"} borderWidth={"5px"} >
           <CardBody>
           <Image
-              src={cover}
+              src='./cover.png'
               alt='Green double couch with wooden legs'
             />
             
@@ -181,7 +181,7 @@ export default function Landing() {
         <Card maxH={"sm"} boxShadow={"dark-lg"}  borderStyle={"hidden"} borderWidth={"5px"}>
           <CardBody>
           <Image
-              src={cover}
+              src='./cover.png'
               alt='Green double couch with wooden legs'
             />
             
@@ -208,7 +208,7 @@ export default function Landing() {
         <Card  boxShadow={"dark-lg"} borderStyle={"hidden"} borderWidth={"5px"}>
           <CardBody>
           <Image
-              src={cover}
+              src='./cover.png'
               alt='Green double couch with wooden legs'
             />
             

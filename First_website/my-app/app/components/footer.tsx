@@ -9,15 +9,15 @@ export default function Footer() {
   return (
     <Box boxShadow={"dark-lg"} bg={"blackAlpha.700"}>
 
-    <Flex  justifyContent={'space-evenly'}>
-        <Box ml={"5"}  height={"200"} width={"30"} >
+    <Flex  justifyContent={{lg:'space-evenly',base:"center"}} display={{lg:"flex",base:"grid"}}>
+        <Box ml={{lg:"5",base:"8"}}  height={"200"} width={{lg:"30",base:"50%"}} >
     <Image src={logo} alt={"Panaverse-logo"} height={100} width={170} ></Image>
     <Text fontWeight={"semibold"}>Certified Web 3.0 and Metaverse Developer:<br/> 
         A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar</Text>
         </Box>
-        <Flex  ml={'200'}>
+        <Flex  ml={{lg:'200',base:"12"}} display={{lg:"flex",base:"grid"}}>
         <VStack fontWeight={"normal"} pl={"3"} pt={"3"} 
-         width={300} textColor={"white"}>
+         width={{lg:"300",base:"0"}} textColor={"white"}>
             <Heading fontSize={"22"} fontWeight={"bold"}>Pages</Heading>
             <Link href={"/"}>Home</Link>
             <Link href={"./courses"}>Courses</Link>
@@ -26,7 +26,7 @@ export default function Footer() {
             
         </VStack>
         <VStack fontWeight={"normal"}  ml={"4"} mr={'0'} pt={"3"} 
-        pl={""}  width={300} textColor={"white"}
+        pl={""}  width={{lg:"300",base:"2px"}} textColor={"white"}
         >
             <Heading fontSize={"22"} fontWeight={"bold"}>Follow US</Heading>
             <Link href={""} >FaceBook</Link>
