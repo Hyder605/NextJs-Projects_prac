@@ -1,12 +1,19 @@
+import {AboutMe} from "@/components/aboutme"
+import { AboutMe2 } from "@/components/aboutme-2"
+import Link from "next/link"
+import { SideBar } from '@/components/sidebar'
 
-import {Head} from "@/components/head"
-import { PersonalData } from "./data/page"
+import { aboutMe, PersonalData,Skills } from "./data/page"
+
+
 export default function Home() {
   return (
    <>
+    <SideBar data={Skills}/>
+
+    <Link href={"/new"}>clcik</Link>
    
-   <Head data={PersonalData}/>
-   <h1 className="bg-green-300">Hello world</h1>
+   
    </>
   )
 }

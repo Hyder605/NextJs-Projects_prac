@@ -4,28 +4,24 @@ import { Linkedin} from "./icons/linkedin"
 import { Envelope } from './icons/envelope'
 import Link from 'next/link'
 
-export const Head=({data}:any)=>{
+export const AboutMe=({data}:any)=>{
     const{name,education}=data
   return (
-    <div className=" flex bg-gray-600  h-screen justify-center pt-12 sm:justify-around sm:w-1/3 sm:fixed">
-        <div >
-            <Image src="/a.png" 
+    <div className='flex justify-between'>
+        <Image src="/a.png" 
               alt="DP" width={"150"} height={"150"}/>
-            <h1>{name}</h1>
-            <h2>{data.role}</h2>
-            <p>{education}</p>
-        <div>
+        <div className='flex flex-col p-3 '>
+            <h1 className='text-heading'>{name}</h1>
+            <p className='text-xs sm:text-2xl'>{education}</p>
+        <div className='text-xs sm:text-2xl'>
             <h3>Contact Me</h3>
-            <h3 className='flex space-x-3' >
+            <div className='flex space-x-3 ' >
             <Link href={""} ><Linkedin/></Link>
             <Link href={""} ><Envelope/></Link>
-            </h3>
+            </div>
 
-            
             
         </div>
-
-            
         </div>
 
 
