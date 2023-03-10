@@ -5,6 +5,21 @@ export const PersonalData={
     "education":"Bachelor of Science in Mechanical Engineering"
 }
 
+export const contactMe={
+    "title":"Contact Me",
+    "Phone":"+923445969369",
+    "Email":"Haiderali605@hotmail.com",
+    "LinkedIn":"linkedin.com/in/haider-ali605"
+}
+
+
+export const interest={
+    "title":"Other Interests",
+    "hobbies":["Hiking","Sketching","Reading"]
+}
+
+
+
 export const aboutMe = {
 	title: "About Me",
 	body: [

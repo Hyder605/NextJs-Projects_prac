@@ -9,7 +9,8 @@ import { aboutMe, PersonalData,Skills } from "./data/page"
 export default function Home() {
   return (
    <>
-    <SideBar data={Skills}/>
+    <SideBar data={Skills} />
+
 
     <Link href={"/new"}>clcik</Link>
    
