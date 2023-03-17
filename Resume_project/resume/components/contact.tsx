@@ -23,7 +23,7 @@ export const ContactMe = ({ data }: any) => {
                     {Email}
                 </span>
                 <span className='flex '>
-                   <Link  href={"https://www.linkedin.com/in/haider-ali605/ target='_blank' rel='noopener'"} className='font-bold'>LinkedIn: </Link>
+                   <Link  href={"https://www.linkedin.com/in/haider-ali605/ target='_blank'"} className='font-bold'>LinkedIn: </Link>
                     {LinkedIn}
                 </span>
             </li>

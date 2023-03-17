@@ -12,7 +12,7 @@ export const Interests = ({ data }: any) => {
             </h1>
           </div>
           <ul className='flex flex-col pl-12  items-start'>
-            {hobbies.map((elm) => (
+            {hobbies.map((elm:string) => (
               <div  key={elm} className='flex'>
                 <li>
                   {elm}
