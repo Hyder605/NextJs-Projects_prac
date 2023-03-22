@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe"
+import MainBox from "@/components/Details/MainBox"
 import SelectionBar from "@/components/Details/SelectionBar"
 import Expertise from "@/components/Expertise"
 import Hero from "@/components/Hero"
@@ -12,8 +13,10 @@ export default function Home() {
     <Expertise/> 
     <RecentWorks/>
     <AboutMe/> 
+    
     <SelectionBar/>
-    {/* <HireMe/>   */}
+    <MainBox/>
+    <HireMe/>  
     </>  
    
   )

@@ -8,10 +8,10 @@ export default function AboutMe() {
         <Wrapper>
             <section>
                 <div className='grid grid-rows md:grid-cols-2 m-[30px] gap-3 '>
-                    <div className='bg-green-200 md:block hidden '>
+                    <div className=' md:block hidden '>
                         <Image src={profilePic} alt="profilePic" />
                     </div>
-                    <div className='bg-red-100 '>
+                    <div>
                         <div className='flex flex-col px-6 lg:p-20 md:h-3/4 justify-center'>
                             <h2 className="text-2xl font-semibold">About Me</h2>
                             <div className="rounded-full mx-5 mt-1 w-16 h-2 bg-red-500" />
