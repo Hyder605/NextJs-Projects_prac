@@ -1,6 +1,6 @@
 import AboutMe from "@/components/AboutMe"
+import ContactUs from "@/components/ContactUs"
 import MainBox from "@/components/Details/MainBox"
-import SelectionBar from "@/components/Details/SelectionBar"
 import Expertise from "@/components/Expertise"
 import Hero from "@/components/Hero"
 import HireMe from "@/components/HireMe"
@@ -13,10 +13,9 @@ export default function Home() {
     <Expertise/> 
     <RecentWorks/>
     <AboutMe/> 
-    
-    <SelectionBar/>
     <MainBox/>
     <HireMe/>  
+    <ContactUs/>
     </>  
    
   )

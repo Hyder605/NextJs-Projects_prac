@@ -15,7 +15,7 @@ export default function AboutMe() {
                         <div className='flex flex-col px-6 lg:p-20 md:h-3/4 justify-center'>
                             <h2 className="text-2xl font-semibold">About Me</h2>
                             <div className="rounded-full mx-5 mt-1 w-16 h-2 bg-red-500" />
-                            <p className='mt-3 font-medium'>Hi, my name is Haider Ali and I began using WordPress when it first began. I’ve spent most of my waking hours for the last ten years designing, programming and operating WordPress sites. One of my specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to produce sites with a unique</p>
+                            <p className='mt-3 font-medium'>Hi, my name is Alex and I began using WordPress when it first began. I’ve spent most of my waking hours for the last ten years designing, programming and operating WordPress sites. One of my specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to produce sites with a unique</p>
                         </div>
                     </div>
                 </div>
