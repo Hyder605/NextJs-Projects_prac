@@ -43,7 +43,8 @@ export default function Navbar() {
                         </svg>
 
                     </button>
-                    {!toggle && (
+                    {/* {toggle? "yes":"No"} */}
+                    {!toggle?
                     <ul className="fixed left-0 right-0  min-h-screen px-4 pt-8 space-y-4 bg-blue-500 md:bg-transparent
                      text-white md:hidden" onClick={() => {
                         settoggle(!toggle);
@@ -64,7 +65,7 @@ export default function Navbar() {
                         <li className="hover:scale-125 duration-300">Hire Me</li>
                     </a>
                 </ul>
-                )}
+                :null}
 
                 </nav>
                 
