@@ -1,6 +1,6 @@
 
 
-export const ExperienceP=({data})=>{
+export const ExperienceP=({data}:any)=>{
     const{title,experiences}=data
 
     return(
@@ -9,11 +9,11 @@ export const ExperienceP=({data})=>{
         <section className='bg-grey-light p-4 drop-shadow-md'>
             <h1>{title}</h1>
             {experiences.map(({role,description})=>(
-                <div key={role} className='flex flex-col rounded-lg'>
-                    <span className="bg-green-200 h-3"/>
+                <div key={role} className='flex flex-col rounded-lg my-3'>
+                    <span className="bg-green-200 h-1"/>
                     <div >
 							<h2 className="font-medium">{role}</h2>
-							<p className='mt-2'>{description}</p>
+							<p className='mt-2 mx-5 text-lg'>{description}</p>
 						</div>
 
                 </div>

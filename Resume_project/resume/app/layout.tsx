@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='flex flex-col'>
-      <main className=' bg-yellow-400  w-full  p-8 sm:p-8  ml-auto'>
+      <main className=' bg-[#3cc0e88b]  w-full  p-8 sm:p-8  ml-auto'>
       <AboutMe data={PersonalData}/>
         </main>
       

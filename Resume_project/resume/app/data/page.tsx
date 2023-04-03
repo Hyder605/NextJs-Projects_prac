@@ -1,15 +1,15 @@
 import React from 'react'
 
 export const PersonalData={
-    "name":"Haider Ali",
-    "education":"Bachelor of Science in Mechanical Engineering"
+    "name":"Dani Martinez",
+    "education":"Bachelor of Science in XYZ"
 }
 
 export const contactMe={
     "title":"Contact Me",
-    "Phone":"+923445969369",
-    "Email":"Haiderali605@hotmail.com",
-    "LinkedIn":"linkedin.com/in/haider-ali605"
+    "Phone":"+9*********",
+    "Email":"abc@xyz.com",
+    "LinkedIn":"linkedin.com/in/xyz"
 }
 
 
@@ -30,27 +30,44 @@ export const aboutMe = {
 
 export const Skills={
     "title":"Skills:",
-    "text":["Python","JavaScript","Abacus","GoogleSketchUp","AdobePhotoShop"],
+    "text":["Strategic thinking",
+        "Creative problem-solving",
+        "Market research",
+        "Campaign planning",
+        "Social media management",
+        "Data analysis",
+        "Project management",
+        "Leadership",
+        "Team management"
+        ],
 }
 
 export const Experience={
     title: "Professional Experience",
     experiences: [
 		{
-			role: "Maintenance Mechanical Engineer: Rupafill Limited (Rupali Group), Sheikhupura, Pakistan |2018-2019",
-			description:["Planning: Planned preventive and routine maintenance works of machines ",
-            "Troubleshooting: Managed and resolved troubleshooting of equipment according to best applicable practices",
-            "Budget and Inventory Optimization: Developed capital and operating budgets by identifying specific items to be included in the budget submission, reviewed re-order points, ordered when request requirements, reviewed spares from interchangeability point of view to optimize the inventory level & vendor’s quotations and accepted & procured technically & economically justifiable items." 
+			role: "Marketing Manager Warner & Spencer | 2018 - Now",
+			description:["Developed and implemented a comprehensive marketing strategy that increased brand awareness by 25% and customer engagement by 30%",
+            "Conducted market research to understand customer needs and preferences, and used this information to inform targeted marketing campaigns",
+            "Planned and executed successful campaigns across various channels, including social media, email marketing, and events" 
             ],
 
         
 		},
         {
-            role:"Trainee Engineer: Oil and Gas Development Company Limited, Chakwal, Pakistan|Oct 2017–April 2018",
+            role:"Marketing Coordinator Warner & Spencer | 2016 - 2018",
             description:[
-            "Overhauling: Learned and Practiced overhauling of engine, mud pump, torque converter & reciprocating compressor of degasser",
-            "Logistics: Practiced management system to control the movement of goods and services.",
-            "Procurement: Procured local and import spare items to maintain the stock position."
+            "Assisted in the development and implementation of marketing strategies to increase brand awareness and customer engagement ",
+            "Conducted market research and provided insights to inform marketing campaigns",
+            "Managed social media accounts and created engaging content to promote the brand"
+                ]
+        },
+        {
+            role:"Intrenship Warner & Spencer | 2015 - 2016",
+            description:[
+            "Assisted in the development and implementation of marketing strategies to increase brand awareness and customer engagement ",
+            "Conducted market research and provided insights to inform marketing campaigns",
+            "Managed social media accounts and created engaging content to promote the brand"
                 ]
         }
     ]

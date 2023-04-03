@@ -14,7 +14,7 @@ export const SideBar = ({ data }: any) => {
   return (
     <>
       <div className='flex flex-col sm:flex-row'>
-        <div className="flex flex-col bg-gray-600 h-screen gap-3  pt-2  sm:w-1/3 px-3 text-white">
+        <div className="flex flex-col bg-gray-600 gap-3  pt-2  sm:w-1/3 px-3 text-white">
           <div className='pl-8'>
             <h1 className='text-white'>{title}
               <div className="bg-green-200 h-1 drop-shadow-md rounded-full" />
