@@ -1,13 +1,13 @@
 import Wrapper from '@/others/Wrapper'
 import Image from 'next/image'
 import React from 'react'
-import profilePic from "@/images/profile.png"
+import profilePic from "@/images/dp.png"
 
 export default function AboutMe() {
     return (
         <Wrapper>
             <section>
-                <div className='grid grid-rows md:grid-cols-2 m-[30px] gap-3 '>
+                <div className='grid grid-rows md:grid-cols-2 m-[30px] gap-3 ' id="aboutme">
                     <div className=' md:block hidden '>
                         <Image src={profilePic} alt="profilePic" />
                     </div>

@@ -10,7 +10,7 @@ export default function RecentWorks() {
             <section>
                 <div className=" flex flex-col bg-green-200 mt-16 h-auto
                 bg-gradient-to-r from-secondary to-primary/90 ">
-                    <div className='pl-2'>
+                    <div className='pl-2' id="recentworks">
                         <h2 className="text-2xl font-semibold">My Recent Works</h2>
                         <div className="rounded-full mx-20 w-16 h-2 bg-red-500" />
                     </div>

@@ -6,7 +6,7 @@ import Wrapper from '@/others/Wrapper'
 export default function Expertise() {
     return (
         <Wrapper>
-        <section className='2xl:w-[1500px] xl:w-[1200px] lg:w-[1000px] md:w-[720px] sm:w-[600px] mx-auto lg:-mt-28 h-auto shadow-2xl rounded-lg bg-[rgba(76,102,160,0.3)]'>
+        <section className='2xl:w-[1500px] xl:w-[1200px] lg:w-[1000px] md:w-[720px] sm:w-[600px] mx-auto lg:-mt-16 xl:-mt-24 h-auto shadow-2xl rounded-lg bg-[rgba(76,102,160,0.3)]'>
             {/* Header */}
             <div className='flex justify-center mt-6'>
                 <div className='flex flex-col text-center mt-4'>

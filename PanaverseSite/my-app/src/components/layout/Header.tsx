@@ -29,7 +29,7 @@ const Header = () => {
                     className="pr-5 md:hidden z-10 text-red-500 cursor-pointer"
                     onClick={() => {
                         settoggle(!toggle);
-                        console.log(toggle);
+                    
                     }}
                 >
                     {toggle ? <GiHamburgerMenu size={25} /> : <RxCross2 size={25} />}
