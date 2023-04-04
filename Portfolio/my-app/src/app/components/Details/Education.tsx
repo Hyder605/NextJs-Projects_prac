@@ -1,4 +1,4 @@
-import Wrapper from '@/others/Wrapper'
+import Wrapper from '@/app/others/Wrapper'
 import React from 'react'
 
 export default function Education() {

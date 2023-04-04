@@ -1,8 +1,7 @@
 'use client'
-import Wrapper from "@/others/Wrapper";
-import Image from "next/image";
-import dd from "@/images/js.png"
+
 import { useState } from "react";
+import Wrapper from "../others/Wrapper";
 
 
 export default function Navbar() {

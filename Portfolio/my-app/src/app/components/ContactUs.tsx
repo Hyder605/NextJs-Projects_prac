@@ -1,5 +1,5 @@
-import Wrapper from '@/others/Wrapper'
 import React from 'react'
+import Wrapper from '../others/Wrapper'
 
 export default function ContactUs() {
     return (
@@ -12,14 +12,14 @@ export default function ContactUs() {
 
                 <div className='h-auto'>
                     <div className="w-[90%] mx-auto mt-4">
-                        <input type={'text'} placeholder="Name" className='w-full bg-gray-700 border-black border-3 text-white text-xl font-bold' />
+                        <input type={'text'} placeholder='Name' className='w-full bg-gray-700 border-black border-3 text-white text-xl font-bold' />
                     </div>
                     <div className="flex gap-7 w-[90%] mx-auto mt-4">
-                        <input type={'text'} placeholder="Email" className='w-full bg-gray-700 border-black border-3 text-white text-xl font-bold' />
-                        <input type={'text'} placeholder="Phone" className='w-full bg-gray-700 border-black border-3 text-white text-xl font-bold' />
+                        <input type={'text'} placeholder='Email' className='w-full bg-gray-700 border-black border-3 text-white text-xl font-bold' />
+                        <input type={'text'} placeholder='Phone' className='w-full bg-gray-700 border-black border-3 text-white text-xl font-bold' />
                     </div>
-                    <div className="flex  w-[90%] mx-auto mt-4 ">
-                        <textarea  placeholder="Message" className=' w-full whitespace-normal h-40 flex-wrap placeholder:top-0 bg-gray-700 border-black border-3 text-white text-xl font-bold' />
+                    <div className="flex  w-[90%] mx-auto mt-4">
+                        <textarea  placeholder='Message' className=' w-full whitespace-normal h-40 flex-wrap placeholder:top-0 bg-gray-700 border-black border-3 text-white text-xl font-bold' />
                     </div>
 
                 </div>

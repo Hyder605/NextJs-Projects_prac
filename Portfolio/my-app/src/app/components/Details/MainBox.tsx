@@ -1,6 +1,6 @@
 'use client'
-import { Variability } from '@/Data/Variablility'
-import Wrapper from '@/others/Wrapper'
+import { Variability } from '@/app/Data/Variablility'
+import Wrapper from '../../../app/others/Wrapper'
 import React, { useState } from 'react'
 
 export default function MainBox() {
@@ -15,7 +15,7 @@ export default function MainBox() {
                 <div >
                     <div className='flex justify-center mx-[5%] sm:mx-[10%] md:mx-[15%] lg:mx-[20%]'>
                         {Variability.map((items) => (
-                            <div onClick={() => setselecteditem(items.slug)} className=' w-[35%] sm:w-[60%] mx-auto flex justify-center  space-x-2 sm:space-x-4 h-14'>
+                            <div key={items.slug} onClick={() => setselecteditem(items.slug)} className=' w-[35%] sm:w-[60%] mx-auto flex justify-center  space-x-2 sm:space-x-4 h-14'>
                                 {items.butt}
                             </div>
 

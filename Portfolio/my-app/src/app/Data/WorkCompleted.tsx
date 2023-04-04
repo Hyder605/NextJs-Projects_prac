@@ -1,6 +1,4 @@
-import panverseImage from '@/images/panaverse.png'
-import todo from '@/images/todo.png'
-import chakraui from '@/images/Chakra.png'
+import todo from '../images/todo.png'
 
 
 export const WorkCompleted=[

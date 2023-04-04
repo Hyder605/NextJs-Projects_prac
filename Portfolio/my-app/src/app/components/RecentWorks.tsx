@@ -1,8 +1,8 @@
-import Wrapper from '@/others/Wrapper'
 import React from 'react'
-import { WorkCompleted } from '@/Data/WorkCompleted'
 import Image from 'next/image'
 import Link from 'next/link'
+import Wrapper from '../others/Wrapper'
+import { WorkCompleted } from '../Data/WorkCompleted'
 
 export default function RecentWorks() {
     return (

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import js from '@/images/js.png'
-import Wrapper from '@/others/Wrapper'
+import js from '../images/js.png'
+import Wrapper from '../others/Wrapper'
 
 export default function Expertise() {
     return (

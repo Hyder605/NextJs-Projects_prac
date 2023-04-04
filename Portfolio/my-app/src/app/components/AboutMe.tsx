@@ -1,7 +1,7 @@
-import Wrapper from '@/others/Wrapper'
 import Image from 'next/image'
 import React from 'react'
-import profilePic from "@/images/dp.png"
+import profilePic from "../images/dp.png"
+import Wrapper from '../others/Wrapper'
 
 export default function AboutMe() {
     return (

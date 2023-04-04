@@ -15,7 +15,11 @@ module.exports = {
      'secondary': '#23608B',
     
     }),
-    extend: {},
+    extend: {
+      screens: {
+        '2xl': '1536',
+      },
+    },
   },
   plugins: [],
 }

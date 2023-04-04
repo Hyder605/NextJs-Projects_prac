@@ -1,7 +1,8 @@
-import Biography from "@/components/Details/Biography";
-import Education from "@/components/Details/Education";
-import Skills from "@/components/Details/Skills";
-import { ButtonType2 } from "@/others/ButtonType2";
+
+import Biography from "../components/Details/Biography";
+import Education from "../components/Details/Education";
+import Skills from "../components/Details/Skills";
+import { ButtonType2 } from "../others/ButtonType2";
 
 
 export const Variability=[

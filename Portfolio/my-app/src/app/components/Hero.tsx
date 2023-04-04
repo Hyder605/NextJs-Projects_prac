@@ -1,6 +1,6 @@
-import Wrapper from "@/others/Wrapper"
 import Image from "next/image"
-import profilePic from "@/images/profileGirl.png"
+import profilePic from "../images/profileGirl.png"
+import Wrapper from "../others/Wrapper"
 
 
 export default function Hero() {
