@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
             <Wrapper>
-            <div className="w-full h-20 hidden md:flex justify-end ">
+            <div className="w-full h-16 hidden md:flex justify-end fixed top-0 bg-green-200 bg-gradient-to-r from-secondary to-primary/90">
                     <div className="flex items-center ">
                         <ul className="flex mr-6 space-x-6 text-xl font-semibold text-white cursor-pointer  ">
                             <a href="#home">
@@ -31,8 +31,8 @@ export default function Navbar() {
                     </div>
 
                 </div>
-            <header className="fixed top-0 w-full bg-blue-500 md:bg-transparent flex justify-end items-center
-            px-4  md:px-12 ">
+            <header className="fixed top-0 w-full   flex justify-end items-center
+            px-4  md:px-12 bg-gradient-to-r from-secondary to-primary/90">
                 <nav>
                     <button className="md:hidden" onClick={() => {
                         settoggle(!toggle);
@@ -45,7 +45,7 @@ export default function Navbar() {
                     </button>
                     {/* {toggle? "yes":"No"} */}
                     {!toggle?
-                    <ul className="fixed left-0 right-0  min-h-screen px-4 pt-8 space-y-4 bg-blue-500 md:bg-transparent
+                    <ul className="fixed left-0 right-0  min-h-screen px-4 pt-8 space-y-4 bg-gradient-to-r from-secondary to-primary md:bg-transparent
                      text-white md:hidden" onClick={() => {
                         settoggle(!toggle);
                     
