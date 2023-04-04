@@ -1,22 +1,22 @@
 import React from 'react'
 
 export const PersonalData={
-    "name":"Dani Martinez",
-    "education":"Bachelor of Science in XYZ"
-}
+    name:"Dani Martinez",
+    education:"Bachelor of Science in XYZ"
+};
 
 export const contactMe={
-    "title":"Contact Me",
-    "Phone":"+9*********",
-    "Email":"abc@xyz.com",
-    "LinkedIn":"linkedin.com/in/xyz"
-}
+    title:"Contact Me",
+    Phone:"+9*********",
+    Email:"abc@xyz.com",
+    LinkedIn:"linkedin.com/in/xyz"
+};
 
 
 export const interest={
-    "title":"Other Interests",
-    "hobbies":["Hiking","Sketching","Reading"]
-}
+    title:"Other Interests",
+    hobbies:["Hiking","Sketching","Reading"]
+};
 
 
 
@@ -29,8 +29,8 @@ export const aboutMe = {
 };
 
 export const Skills={
-    "title":"Skills:",
-    "text":["Strategic thinking",
+    title:"Skills:",
+    text:["Strategic thinking",
         "Creative problem-solving",
         "Market research",
         "Campaign planning",
@@ -40,7 +40,7 @@ export const Skills={
         "Leadership",
         "Team management"
         ],
-}
+};
 
 export const Experience={
     title: "Professional Experience",

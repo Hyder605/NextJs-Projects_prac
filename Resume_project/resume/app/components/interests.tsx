@@ -1,8 +1,12 @@
-import { AboutMe2 } from './aboutme-2';
-import { aboutMe, Experience } from '@/app/data/page';
-import { ExperienceP } from './experience';
+import { FC } from "react";
 
-export const Interests = ({ data }: any) => {
+interface InterestProps {
+  data: {
+    title: string;
+    hobbies: string[];
+  };
+}
+export const Interests:FC<InterestProps> = ({ data }) => {
   const { title,hobbies } = data
   return (
     <>

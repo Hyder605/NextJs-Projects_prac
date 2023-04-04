@@ -1,11 +1,20 @@
 import Image from 'next/image'
-import React from 'react'
-import { Linkedin } from "./icons/linkedin"
-import { Envelope } from './icons/envelope'
+import React, { FC } from 'react'
+
 import Link from 'next/link'
 import DP from "../../public/dp.png"
+import { Linkedin } from './icons/linkedin';
+import { Envelope } from './icons/envelope';
 
-export const AboutMe = ({ data }: any) => {
+
+interface AboutProps {
+  data: {
+    name: string;
+    education: string;
+  };
+}
+
+export const AboutMe:FC<AboutProps> = ({ data }) => {
   const { name, education } = data
   return (
     <div className='flex flex-col sm:flex-row justify-between shadow-2xl rounded-3xl'>

@@ -1,6 +1,14 @@
+import { FC } from "react";
 
 
-export const AboutMe2=({data})=>{
+interface About2Props {
+    data: {
+      title: string;
+      body: string[];
+    };
+  }
+
+export const AboutMe2:FC<About2Props>=({data})=>{
     const{title,body}=data
     return(
         <>

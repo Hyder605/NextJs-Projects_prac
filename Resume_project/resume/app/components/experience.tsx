@@ -1,6 +1,17 @@
+import { FC } from "react";
 
 
-export const ExperienceP=({data}:any)=>{
+interface ExpProps {
+    data: {
+      title: string;
+      experiences: {
+        role:string,
+        description:string[],
+      }[]
+    };
+  }
+
+export const ExperienceP:FC<ExpProps>=({data})=>{
     const{title,experiences}=data
 
     return(

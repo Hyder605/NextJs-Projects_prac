@@ -1,15 +1,20 @@
 import Image from 'next/image'
-import React, { useId } from "react";
-import { Linkedin } from "./icons/linkedin"
-import { Envelope } from './icons/envelope'
-import Link from 'next/link'
+import React, { FC, useId } from "react";
+
 import { AboutMe2 } from './aboutme-2';
 import { aboutMe, Experience, Skills,contactMe, interest } from '@/app/data/page';
 import { ExperienceP } from './experience';
 import { ContactMe } from './contact';
 import { Interests } from './interests';
 
-export const SideBar = ({ data }: any) => {
+interface SideBarProps {
+  data: {
+    title: string;
+    text: string[];
+  };
+}
+
+export const SideBar:FC<SideBarProps> = ({ data }) => {
   const { title, text } = data
   return (
     <>
