@@ -1,6 +1,6 @@
 
 import { SideBar } from './components/sidebar'
-import { Skills } from './data/page'
+import { Skills } from './data'
 
 
 

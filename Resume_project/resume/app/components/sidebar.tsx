@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React, { FC, useId } from "react";
 
 import { AboutMe2 } from './aboutme-2';
-import { aboutMe, Experience, Skills,contactMe, interest } from '@/app/data/page';
+import { aboutMe, Experience, Skills,contactMe, interest } from '@/app/data';
 import { ExperienceP } from './experience';
 import { ContactMe } from './contact';
 import { Interests } from './interests';

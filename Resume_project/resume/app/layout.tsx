@@ -1,5 +1,5 @@
 import './globals.css'
-import { PersonalData} from './data/page'
+import { PersonalData} from './data'
 import { AboutMe } from '../app/components/aboutme'
 export const metadata = {
   title: 'Resume',
