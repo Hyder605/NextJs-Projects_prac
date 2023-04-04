@@ -3,7 +3,7 @@ import React from 'react'
 import { Linkedin } from "./icons/linkedin"
 import { Envelope } from './icons/envelope'
 import Link from 'next/link'
-import DP from "../public/dp.png"
+import DP from "../../public/dp.png"
 
 export const AboutMe = ({ data }: any) => {
   const { name, education } = data
