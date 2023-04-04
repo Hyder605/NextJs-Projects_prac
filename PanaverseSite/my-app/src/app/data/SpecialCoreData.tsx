@@ -1,4 +1,4 @@
-import spcImage from "@/assets/special.png"
+import spcImage from "../assets/special.png"
 
 
 

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Wrapper } from '../shared/Wrapper'
-import h from "@/assets/h.png"
+import h from "../../assets/h.png"
 
 
 const outcomesPoints = ["Product Ownership", "Freelacing", "Global Marketing by DAO", "Boosting Economy"]

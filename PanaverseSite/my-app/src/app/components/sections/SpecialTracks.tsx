@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import QuaterBox from '../QuaterBox'
 import { Button } from '../shared/Button'
 import { Wrapper } from '../shared/Wrapper'
-import { data } from '@/data/SpecialCoreData'
+import { data } from '@/app/data/SpecialCoreData'
 import Image from 'next/image'
 
 

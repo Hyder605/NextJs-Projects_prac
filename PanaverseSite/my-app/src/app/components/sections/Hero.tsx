@@ -1,6 +1,6 @@
 import React from 'react'
 import { Wrapper } from '../shared/Wrapper'
-import Heroposter from "@/assets/Hero1.png"
+import Heroposter from "../../assets/Hero1.png"
 import Image from 'next/image'
 import { Button } from '../shared/Button'
 
