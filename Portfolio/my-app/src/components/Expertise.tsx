@@ -18,19 +18,19 @@ export default function Expertise() {
             {/* Expertise section */}
             <div className='grid lg:grid-cols-3 gap-3 mt-4' >
                 
-                <div className=' flex flex-col items-center h-auto mt-2'>
+                <div className=' flex flex-col items-center h-auto mt-2 border-b-2 md:border-0 border-slate-700'>
                     <div className='w-20 h-20 mt-4'>
                         <Image src={js} alt="javascript"/>
                     </div>
                     <div className="flex flex-col items-center mt-4">
-                        <h2 className="text-2xl font-semibold">Website Design</h2>
+                        <h2 className="text-2xl font-semibold">UI/UX Design</h2>
                         <p className="px-10 mt-2 font-medium pb-4">Continue indulged speaking the was horrible for domestic position. Seeing get rather her you not esteem men settle is genius take excuse. Deal say over you age comparison new ham melancholy.</p>
 
 
                     </div>
                 </div>    
 
-                <div className=' flex flex-col items-center h-auto mt-2'>
+                <div className=' flex flex-col items-center h-auto mt-2 border-b-2 md:border-0 border-slate-700'>
                     <div className='w-20 h-20 mt-4'>
                         <Image src={js} alt="javascript"/>
                     </div>
@@ -47,7 +47,7 @@ export default function Expertise() {
                         <Image src={js} alt="javascript"/>
                     </div>
                     <div className="flex flex-col items-center mt-4">
-                        <h2 className="text-2xl font-semibold">Website Design</h2>
+                        <h2 className="text-2xl font-semibold">Data Science</h2>
                         <p className="px-10 mt-2 font-medium pb-4">Continue indulged speaking the was horrible for domestic position. Seeing get rather her you not esteem men settle is genius take excuse. Deal say over you age comparison new ham melancholy.</p>
 
 
