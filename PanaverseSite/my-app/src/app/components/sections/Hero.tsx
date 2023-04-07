@@ -27,7 +27,7 @@ export const Hero = () => {
                     </div>
                     {/* Right side */}
                     <div className='flex-1 '>
-                        <Image src={Heroposter} alt="HeroImage" className='mx-auto'/>
+                        <Image src={Heroposter} alt="HeroImage" priority className='mx-auto'/>
                     </div>
                 </div>
             </Wrapper>

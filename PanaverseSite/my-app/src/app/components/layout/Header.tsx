@@ -10,6 +10,7 @@ import { RxCross2 } from "react-icons/rx";
 const Header = () => {
     const [toggle, settoggle] = useState(true)
     
+    
     return (
         <Wrapper>
             <header className=' items-center flex  sticky top-0 justify-between  py-4 bg-white'>
@@ -23,12 +24,13 @@ const Header = () => {
                     <li>
                         <Link href={"./"}>Home</Link>
                     </li>
-                    <li><Link href={"#"}>Courses</Link></li>
+                    <li><Link href={"/Courses"}>Courses</Link></li>
                 </ul>
                 <div
                     className="pr-5 md:hidden z-10 text-red-500 cursor-pointer"
                     onClick={() => {
                         settoggle(!toggle);
+                        console.log(toggle)
                     
                     }}
                 >
@@ -38,9 +40,15 @@ const Header = () => {
                     <div className="fixed top-0  left-0 bg-gray-800 h-screen text-red-500 w-full flex items-center justify-center">
                         <ul className=" m-7  text-white   ">
                             <li>
-                                <Link href={"./"}>Home</Link>
+                                <Link href={"./"} onClick={() => {
+                        settoggle(!toggle);
+                    
+                    }}>Home</Link>
                             </li>
-                            <li><Link href={"#"}>Courses</Link></li>
+                            <li><Link href={"/Courses"} onClick={() => {
+                        settoggle(!toggle);
+                    
+                    }}>Courses</Link></li>
 
                         </ul>
                     </div>
